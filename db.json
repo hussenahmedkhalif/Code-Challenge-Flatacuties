@@ -1,0 +1,30 @@
+{
+    "characters": [
+      {
+        "id": 1,
+        "name": "Amigo",
+        "image": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg",
+        "votes": 0
+      },
+      {
+        "id": 2,
+        "name": "Buddy",
+        "image": "https://cdn.pixabay.com/photo/2022/02/17/04/54/animal-7017939_640.jpg",
+        "votes": 0
+      },
+      {
+        "id": 3,
+        "name": "Apollo",
+        "image": "https://cdn.pixabay.com/photo/2023/07/12/07/07/cat-8121892_1280.jpg",
+        "votes": 0
+      },
+      {
+        "id": 4,
+        "name": "Joss",
+        "image": "https://cdn.pixabay.com/photo/2023/12/28/10/36/animal-8473850_1280.jpg",
+        "votes": 0
+      }
+    ]
+  }
+  
+  
