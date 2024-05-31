@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const animalNamesList = document.getElementById('animal-names-list');
     const animalDetails = document.getElementById('animal-details');
 
-    // Fetch and display animal names
+    
     fetch('http://localhost:3000/characters')
         .then(response => response.json())
         .then(characters => {
@@ -19,13 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-    // Display selected animal details
+    
     function showAnimalDetails(character) {
         animalDetails.innerHTML = `
             <div class="card col-4">
                 <img src="${character.image}" class="card-img-top" alt="${character.name}">
                 <div class="card-body">
                     <h5 class="card-title">${character.name}</h5>
+                    <p>${character.Description}</p>
                     <p class="card-text">Votes: <span id="votes">${character.votes}</span></p>
                     <button type="button" class="btn btn-info" id="vote-button">Vote</button>
                 </div>

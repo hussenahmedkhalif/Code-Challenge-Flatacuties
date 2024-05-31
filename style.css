@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
 }
+h2{
+    font-style: inherit;
+    color: darkblue;
+    text-align: center;
+    background-color: chartreuse;
+}
 
 #animal-details {
     margin-top: 20px;
@@ -10,6 +16,6 @@ body {
 
 .card {
     margin: 10px;
-    background-color: forestgreen;
+    background-color: magenta;
 }
 
